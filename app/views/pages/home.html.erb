@@ -1,0 +1,7 @@
+<h1>Pages#home</h1>
+<p>Find me in app/views/pages/home.html.erb</p>
+<%= url_for(:controller => "pages", :action => "users") %>
+<%= link_to "Contact", pages_contact_path %>
+<%= link_to "Users", url_for(:controller => "pages", :action => "users") %>
+<a href="/pages/contact">Contact</a> 
+<%= link_to "Contact", "/pages/contact" %>
